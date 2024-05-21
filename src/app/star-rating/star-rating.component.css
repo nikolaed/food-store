@@ -1,0 +1,22 @@
+/* .star-rating {
+    font-size: 2em;
+    color: #ffc107;
+  } */
+
+  .star-rating {
+    font-size: 2em;
+    color: black;
+  }
+  
+  .star-rating .fa-star {
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .star-rating .fa-star.checked {
+    color: red;
+  }
+  
+  .star-rating .fa-star.unchecked {
+    color: black;
+  }

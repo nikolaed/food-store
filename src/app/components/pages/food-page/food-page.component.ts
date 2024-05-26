@@ -5,11 +5,12 @@ import { FoodService } from '../../../services/food.service';
 import { StarRatingComponent } from '../../../star-rating/star-rating.component';
 import { CommonModule, NgFor } from '@angular/common';
 import { CartService } from '../../../services/cart.service';
+import { NotFoundComponent } from '../../partials/not-found/not-found.component';
 
 @Component({
   selector: 'app-food-page',
   standalone: true,
-  imports: [StarRatingComponent, NgFor, RouterModule, CommonModule],
+  imports: [StarRatingComponent, NgFor, RouterModule, CommonModule, NotFoundComponent],
   templateUrl: './food-page.component.html',
   styleUrl: './food-page.component.css'
 })
